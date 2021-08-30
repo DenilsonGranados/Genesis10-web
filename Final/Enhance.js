@@ -21,7 +21,7 @@ function do_guess(){
         }
     }else if (guess==NaN){
         message.innerHTML="Number has to be a number";
-    }else if (guess<1 || guess>max){
+    }else if (guess<0 || guess>max){
         message.innerHTML="Number is out of range";
     }
 }
