@@ -6,10 +6,3 @@ function Coin_toss(){
         return "Heads";
     }
 }
-
-function state_guess(guess){
-    let body= document.querySelector(".container");
-    let declaration= document.createElement("p");
-    declaration.innerHTML="You guessed "+guess;
-    body.appendChild(declaration);
-}
